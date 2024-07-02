@@ -1,0 +1,2 @@
+ALTER TABLE `_VTW_ibo`
+CHANGE COLUMN `account_name` `account_name` VARCHAR(255) NULL DEFAULT NULL ;
