@@ -1,0 +1,115 @@
+@media (max-width: 1199px) {
+    html {
+        font-size: 1.3vmax;
+    }
+}
+@media (max-width: 991px) {
+    .single-actions > div {
+        justify-content: center;
+    }
+    .single-button {
+        margin-top: 1.875rem;
+    }
+    .reverse-order-mobile {
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 575px) {
+    .navbar-actions {
+        margin-top: 1.25rem;
+    }
+    .reverse-order-mobile {
+        flex-direction: column-reverse;
+    }
+}
+@media (min-width: 576px) {
+    .navbar>.container-main {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .reverse-order-mobile {
+        flex-direction: column-reverse;
+    }
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    .footer-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.25rem;
+        flex-flow:row;
+    }
+    .featured {
+        flex-direction: row;
+    }
+    .featured > div {
+        width: 50%;
+        text-align: left;
+        justify-content: end;
+    }
+    .square {
+        flex-direction: row;
+    }
+    .square-image {
+        width: 30%;
+        max-height: none;
+    }
+    .square-caption {
+        width: 70%;
+        min-height: 18.75rem;
+    }
+    /* .ticket-caption-info {
+        top: 0;
+        position: absolute;
+    } */
+    .square-action {
+        position: absolute;
+        bottom: 20px;
+        left: 15px;
+        right: 15px;
+    }
+    .single {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .single-caption {
+        text-align: left;
+    }
+    .single-actions {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .single-actions > div {
+        width: 100%;
+    }
+    .ticket {
+        flex-direction: row;
+    }
+    .ticket-info {
+        overflow: hidden;
+        position: relative;
+        max-width: 30%;
+    }
+    .ticket-form {
+        width: 40%;
+    }
+    .video-play-button {
+        position: absolute;
+        transform: translateX(-50%) translateY(-50%);
+        margin-top: 0;
+    }
+    .featured__play {
+        margin: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* .square-action {
+        position: static;
+        padding: 1.25rem 0 0;
+    } */
+}
+@media (min-width: 1440px) {}
